@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        text-align: center;
+      }
+
+      #data1 {
+        margin: auto;
+        border-radius: 15px;
+        width: 500px;
+        height: 500px;
+        background: white;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 id="judul">Ubah Warna Background</h1>
+
+    <button id="btn" onclick="click1()">Kuning</button>
+    <button id="btn1" onclick="click2()">Biru</button>
+    <button id="btn2" onclick="click3()">Orange</button>
+    <button id="btn3" onclick="click4()">Merah</button>
+    <button id="btn4" onclick="click5()">Pink</button>
+    <br />
+    <button id="btn5" onclick="click6()">Dog</button>
+    <button id="btn6" onclick="click7()">Cat</button>
+
+    <div id="data1"></div>
+
+    <script>
+      var btn = document.getElementById("btn");
+      function click1() {
+        document.body.style.background = "yellow";
+      }
+
+      var btn1 = document.getElementById("btn1");
+      function click2() {
+        document.body.style.background = "blue";
+      }
+
+      var btn1 = document.getElementById("btn2");
+      function click3() {
+        document.body.style.background = "orange";
+      }
+
+      var btn1 = document.getElementById("btn3");
+      function click4() {
+        document.body.style.background = "red";
+      }
+
+      var btn1 = document.getElementById("btn4");
+      function click5() {
+        document.body.style.background = "pink";
+      }
+
+      function click6() {
+        document.getElementById("data1").style.background = "url('foto1.jpg') repeat-y center";
+      }
+
+      function click7() {
+        document.getElementById("data1").style.background = "url('foto2.jpg') repeat-y center";
+      }
+    </script>
+  </body>
+</html>

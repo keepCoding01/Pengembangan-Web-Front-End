@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Latihan Form</title>
+  </head>
+
+  <body>
+    <fieldset>
+      <legend>Formulir Pendaftaran Konferensi</legend>
+      <h1>Formulir Pendaftaran Konferensi</h1>
+      <label for="nama">Nama Lengkap</label><br />
+      <input type="text" name="nama" id="nama" /><br />
+      <label for="email">Email</label><br />
+      <input type="email" nama="email" id="email" /><br />
+      <label for="jeniskel">Jenis Kelamin</label><br />
+      <input type="radio" name="JK" id="laki" />Laki-Laki <input type="radio" name="JK" id="pr" />Perempuan
+      <br />
+      <label for="seni">Seni yang Diikuti:</label><br />
+      <select name="pilih" id="pilih">
+        <option value="Teknologi Terkini">Teknologi Terkini</option>
+        <option value="Sistem Informasi">Sistem Informasi</option>
+      </select>
+      <br />
+      <input type="checkbox" />Saya setuju dengan syarat dan ketentuan
+      <br />
+      <input type="submit" value="Daftar" />
+    </fieldset>
+
+    <br />
+
+    <fieldset>
+      <legend>Survey Kepuasan</legend>
+      <h1>Survey Kepuasan</h1>
+      <label for="umur">Umur:</label><br />
+      <input type="text" name="umur" id="umur" /><br />
+      <label for="tanya">Berapa kali Anda mengunjungi website kami per minggu?</label><br />
+      <input type="range" name="tanya" id="tanya" /><br />
+      <label for="feedback">Feedback untuk website kami:</label><br />
+      <textarea name="feedback" id="feedback" cols="30" rows="10"></textarea><br />
+      <input type="submit" value="kirim" />
+    </fieldset>
+
+    <br />
+
+    <fieldset>
+      <legend>Form Login</legend>
+      <h1>Form Login</h1>
+      <label for="username">Username:</label><br />
+      <input type="text" name="username" id="username" /><br />
+      <label for="password">Password:</label><br />
+      <input type="password" name="password" id="password" /><br />
+      <input type="submit" name="submit" id="submit" value="Login" />
+    </fieldset>
+  </body>
+</html>

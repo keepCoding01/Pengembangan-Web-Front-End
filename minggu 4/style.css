@@ -1,0 +1,83 @@
+h1 {
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 0px;
+   
+}
+
+ul,li, a {
+    text-align: center;
+    list-style: none;
+    display: flex;
+    padding-right: 20px;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    margin-top: 0px;
+    padding:5px;
+    
+}
+
+li,a:hover {
+    color: red;
+
+}
+
+
+img {
+    width: 600px;
+}
+
+tr,th, td{
+    width: 500px;
+}
+
+fieldset {
+    background-color: rgb(242, 238, 238);
+}
+
+h2 {
+    margin: 0px;
+}
+
+th,td {
+    border-style:none;
+    background-color: rgb(227, 227, 227);
+    text-align: left;
+    
+}
+
+.garis, Fieldset {
+    margin: 10px;
+    background-color: white;
+    border-color:rgb(184, 184, 184) ;
+}
+
+td {
+    padding: 10px;
+}
+
+form {
+    margin: auto;
+    width: 200px;
+    padding: 10px;
+    display: block;
+}
+
+input[type=submit] {
+    padding: 5px;
+    width: 190px;
+    background-color: green;
+    color: white;
+}
+
+.bawah {
+    background-color: green;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
