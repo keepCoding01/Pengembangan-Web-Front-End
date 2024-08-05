@@ -1,0 +1,80 @@
+html {
+  background-color: #ff99bb;
+}
+
+* {
+  font-family: "Pangolin", cursive;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  padding: 10px 80px;
+  justify-content: space-between;
+}
+
+.gambar {
+  max-width: 500px;
+  padding-left: 100px;
+}
+
+.kotak {
+  max-width: 400px;
+  padding-right: 100px;
+  margin-top: -50px;
+}
+
+.form {
+  border: 1px solid #ddd;
+  border-radius: 5px 100px 5px;
+  padding: 30px;
+  background-color: #f9f9f9;
+}
+
+.form h2 {
+  text-align: center;
+}
+
+.kubu-form {
+  margin-bottom: 20px;
+}
+
+.kubu-form input {
+  width: 310px;
+  padding: 10px;
+  border: 1px solid #ff99bb;
+  border-radius: 20px;
+}
+
+button {
+  width: 330px;
+  margin-top: 5px;
+  padding: 10px;
+  background-color: #ffb3cc;
+  color: #fff;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ff80aa;
+}
+
+p {
+  margin-top: 15px;
+  text-align: center;
+}
+
+p a {
+  color: #ff80aa;
+  text-decoration: none;
+}
+
+p a:hover {
+  text-decoration: underline;
+}
